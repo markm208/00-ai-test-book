@@ -1,0 +1,27 @@
+{
+  "title": "00 AI Test Book",
+  "authors": [
+    {
+      "name": "Mark Mahoney",
+      "url": "https://github.com/markm208"
+    }
+  ],
+  "aiApiUrl": "https://storyteller-ai-proxy.markm208.workers.dev",
+  "chapters": [
+    {
+      "title": "Ch1",
+      "playbacks": [
+        {
+          "title": "Test Program",
+          "slug": "test-program",
+          "authors": [
+            {
+              "name": "Mark Mahoney",
+              "url": "https://github.com/markm208"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
