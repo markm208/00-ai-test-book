@@ -13,6 +13,6 @@ const PLAYBACK_DATA = {
     playbackTitle: "Test Program",
     branchId: "CSBHZItQ",
     estimatedReadTime: 2,
-    aiApiUrl: null,
-    aiEnabled: false
+    aiApiUrl: "https://storyteller-ai-proxy.markm208.workers.dev",
+    aiEnabled: true
 };
