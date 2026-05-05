@@ -304,8 +304,8 @@ class ServerProxy {
     let resultObject = {response: null, error: true};
 
     // Check if we have an external AI API URL (for published playbacks on static sites)
-    const aiApiUrl = window.PLAYBACK_DATA?.aiApiUrl;
-
+    const aiApiUrl = typeof PLAYBACK_DATA !== 'undefined' ? PLAYBACK_DATA.aiApiUrl : null;
+    
     try {
       if (aiApiUrl) {
         // Published playback - call the Cloudflare Worker (or other AI proxy)
